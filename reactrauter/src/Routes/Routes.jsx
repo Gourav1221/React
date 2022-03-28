@@ -4,14 +4,14 @@ import { Routes, Route } from "react-router";
 // import { BookDetailsPage } from "../Components/BookDetailsPage/BookDetailsPage";
 // import { NotFound } from "../Components/NotFound/NotFound";
 import { Navbar } from "../components/Navbar/Navbar";
-import { Home } from "../components/Home";
+// import {Home}
 
 export const AllRoutes = () => {
   return (
     <>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
+        {/* <Route path="/" element={<Home />} /> */}
         {/* <Route exact path="/section/:Section" element={} /> */}
         {/* <Route exact path="/bookdetailspage/:id" element={} /> */}
         {/* <Route exact path="*" element={<NotFound/>} /> */}

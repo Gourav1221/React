@@ -1,7 +1,9 @@
 import { Link } from "react-router-dom";
 // import { Home } from "../Home/Home";
 // import { Section } from "../Section/Section";
-import { Home } from "./components/Home";
+// import { Home } from "./components/Home";
+
+import {Home} from "../Home"
 
 export const Navbar = () => {
   return (
